@@ -1,0 +1,14 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
