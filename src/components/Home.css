@@ -12,3 +12,44 @@
     align-items: center;
     padding: 1rem;
 }
+
+.popup-content{
+    width:60% !important;
+    height:90% !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+.full-image{
+    height: 100%;
+    width: 95%;
+    margin: 0 5px;
+}
+
+.popupStyle {
+    display: flex;
+    justify-content: space-around;
+}
+
+.downImage {
+    position: absolute;
+    z-index: 100;
+}
+
+.downImage path {
+    fill: white;
+}
+
+@media screen and (max-width:996px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2px;
+        padding: 0 !important;
+        grid-auto-rows: minmax(100px, auto);
+    }
+
+    .item {
+        padding: 0;
+        max-width: max-content;
+    }
+}
